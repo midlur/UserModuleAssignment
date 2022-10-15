@@ -10,7 +10,7 @@ Backend implementation for mobile and web applications to store and retrieve use
 
 Services
 =========
-The functions are described in detail below.
+The APIs are described in detail below.
 
 /locationData
 -----
@@ -107,5 +107,6 @@ This API retrieves All User locations on the basis of provided TimeRange.
 
 Technical Details for the implementation
 ---------------
+Springboot application has embedded tomcat server running by default on 8080 port.
 For the Data Storage H2 in memory database is used. When the spring boot application starts in memory database is created and acc to the 
 spring properties mentioned all the ddl statements will be executed. 
