@@ -9,7 +9,7 @@ Backend implementation for mobile and web applications to store and retrieve use
 
 Services
 =========
-The functions are described in detail below.
+The APIs are described in detail below.
 
 /locationData
 -----
